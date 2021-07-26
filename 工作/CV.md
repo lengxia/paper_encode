@@ -1,72 +1,36 @@
-1. iou计算公式
+1. DCN原理与实现
 
-2. ohem 和 focal loss 相同和不同
-
-5. ssd对小样本不好的原因
-
-6. DCN原理与实现
-
-8. YOLOv2，v3，v4，v5
-
-9. rcnn一条龙,rpn是什么
-
-10. roi pooling 和roi align区别,代码
-
-11. fpn实现细节
-
-12. anchor在不同层分配方式
-
-10. NMS手写，nms几种方法的比较
+9. NMS手写，nms几种方法的比较
 
 11. mobile v1，v2
 
 12. 预训练模型
 
-13. 正负样本不均衡问题
-
-14. adam优化器，对比sgd
+13. adam优化器，对比sgd
 
 15. 知道哪些滤波器，边缘提取算子，SIFT算子
 
 16. L1L2正则了解吗
 
-17. yolov5怎么检测旋转区域， 
+17. python的小知识：xrange和range的区别，dictionary中key和value的限制
 
-18. python的小知识：xrange和range的区别，dictionary中key和value的限制
+19. anchor free[算法](https://www.nowcoder.com/jump/super-jump/word?word=算法)进展
 
-19. focal loss了解吗，.解决难样本问题的方法，ohem与focal loss的相同点和不同点
+21. DCN的原理与实现，感受野的含义
 
-20. anchor free[算法](https://www.nowcoder.com/jump/super-jump/word?word=算法)进展
+23. 初始学习率如何设定 用到预训练模型的话怎么处理学习率（网格搜索[算法](https://www.nowcoder.com/jump/super-jump/word?word=算法)）
 
-21. 手写iou loss
+17. aspp池化在网络中的作用及池化层有哪些输入参数
 
-22. DCN的原理与实现，感受野的含义
+27. FC作用 和没有FC相比的区别
 
-23. fpn的实现细节，anhcor在不同层分配方式
-
-24. 初始学习率如何设定 用到预训练模型的话怎么处理学习率（网格搜索[算法](https://www.nowcoder.com/jump/super-jump/word?word=算法)）
-
-25. aspp池化在网络中的作用及池化层有哪些输入参数
-
-26. softmax有什么问题，如何优化
-
-27. ROI pooling 作用
-
-28. 反卷积 转置卷积 了解吗
-
-29. FC作用 和没有FC相比的区别
-
-30. 表达式 cross entropy求导
-
-31. deformable convolution和其他卷积的对比
+30. deformable convolution和其他卷积的对比
 
 32. 分割的评价指标 分割中iou怎么算(写代码)
 
 33. Transformer 为什么 能够性能比CNN 好
 
-34. 了解Relu6是啥么
-
-35. svm介绍一下
+34. svm介绍一下
 
 36. Attention机制 SEnet
 
@@ -106,15 +70,9 @@
 
 54. 深度学习中评价指标的解释，mAP、PR曲线、AUC
 
-55. 空洞卷积优缺点
+55. 分类网络最后的fc层的输入为什么可以当做图像的feature？最后的fc层的weights为什么可以当做类的中心？想当类的中心需要做什么预处理？
 
-56. ssd对小目标不好的原因
-
-57. 分类网络最后的fc层的输入为什么可以当做图像的feature？最后的fc层的weights为什么可以当做类的中心？想当类的中心需要做什么预处理？
-
-58. 检测网络中RPN的优点和缺点？
-
-59. SENET
+58. SENET
 
 60. Transformer 为什么 能够性能比CNN 好
 
@@ -131,9 +89,24 @@
 4. 介绍cnn 为什么要用池化层？CNN可以不要池化层吗
 5. 过拟合是什么？遇到过拟合该怎么办？过拟合解决方法
 6. 梯度消失问题
-7. 空洞卷积优缺点，解释空洞卷积
+7. 空洞卷积优缺点，解释空洞卷积 空洞卷积优缺点
 8. BN层gama labada，多卡bn，其他归一化， 有没有可以学习的参数
 9. 感受野含义
 10. kmeans计算过程
-11. 
+11. rcnn一条龙,rpn是什么
+12. roi pooling 和roi align区别,代码 ROI pooling 作用
+13. fpn实现细节
+14. fpn的实现细节，anhcor在不同层分配方式
+15. anchor在不同层分配方式
+16. 检测网络中RPN的优点和缺点？
+17. YOLOv2，v3，v4，v5
+18. ssd对小样本不好的原因 ssd对小目标不好的原因
+19. yolov5怎么检测旋转区域， 
+20. 反卷积 转置卷积 了解吗
+21. iou计算公式 手写iou loss
+22. 表达式 cross entropy求导
+23. 了解Relu6是啥么
+24. ohem 和 focal loss 相同和不同focal loss了解吗，.解决难样本问题的方法，ohem与focal loss的相同点和不同点
+25. 正负样本不均衡问题
+26. 
 
